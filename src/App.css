@@ -90,25 +90,25 @@ body {
   gap: 300px;
   justify-content: center;
   align-items: center;
-  overflow-x: auto; /* Show scrollbar when items overflow */
-  scrollbar-width: thin; /* Makes the scrollbar thinner */
-  scrollbar-color: #0066ff #eee; /* thumb color, track color */
+  overflow-x: scroll; 
+  scrollbar-width: thin; 
+  scrollbar-color: #0066ff #eee; 
 }
 
 .options::-webkit-scrollbar {
-  height: 8px; /* Adjust scrollbar height */
+  height: 8px; 
 }
 
 .options::-webkit-scrollbar-thumb {
-  background-color: #0066ff; /* Scrollbar thumb color */
-  border-radius: 10px; /* Optional: round the corners */
-  border: 2px solid #fff; /* Border color */
+  background-color: #0066ff; 
+  border-radius: 10px; 
+  border: 2px solid #fff; 
 }
 
 .options::-webkit-scrollbar-track {
-  background-color: #eee; /* Scrollbar track color */
-  border-radius: 10px; /* Optional: round the corners */
-  border: 2px solid #0066ff; /* Border color around the track */
+  background-color: #2a0909; 
+  border-radius: 10px; 
+  border: 2px solid #0066ff;
 }
 
 .options-item {
@@ -118,7 +118,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.options-item:first-child{
+  margin-left: 200px;
+}
 .typography-h1 {
   font-size: 3.2em;
   line-height: 1.1;
