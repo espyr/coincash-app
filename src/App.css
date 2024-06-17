@@ -90,9 +90,6 @@ body {
   gap: 300px;
   justify-content: center;
   align-items: center;
-  overflow-x: scroll; 
-  scrollbar-width: thin; 
-  scrollbar-color: #0066ff #eee; 
 }
 
 .options::-webkit-scrollbar {
@@ -100,15 +97,15 @@ body {
 }
 
 .options::-webkit-scrollbar-thumb {
-  background-color: #0066ff; 
+  background-color: #84B5FF; 
   border-radius: 10px; 
-  border: 2px solid #fff; 
+  border: 2px solid #84B5FF; 
 }
 
 .options::-webkit-scrollbar-track {
-  background-color: #2a0909; 
+  background-color:#84B5FF ; 
   border-radius: 10px; 
-  border: 2px solid #0066ff;
+  border: 2px solid #84B5FF  ;
 }
 
 .options-item {
@@ -118,9 +115,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.options-item:first-child{
-  margin-left: 200px;
-}
+
 .typography-h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -311,11 +306,30 @@ body {
   }
   .options {
     display: flex;
-    overflow-x: auto; 
-    gap: 120px; 
-    padding: 0px 16px; 
-    align-items: center; 
-    flex-wrap: nowrap; 
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll; 
+    scrollbar-width: thin; 
+    scrollbar-color: #0066ff #84B5FF; 
+  }
+  .options-item:first-child{
+    margin-left: 400px;
+  }
+  .options::-webkit-scrollbar {
+    height: 8px; 
+  }
+  
+  .options::-webkit-scrollbar-thumb {
+    background-color: #84B5FF; 
+    border-radius: 10px; 
+    border: 2px solid #84B5FF; 
+  }
+  
+  .options::-webkit-scrollbar-track {
+    background-color:#84B5FF ; 
+    border-radius: 10px; 
+    border: 2px solid #84B5FF  ;
   }
 
   .options-item {
