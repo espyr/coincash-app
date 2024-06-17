@@ -74,8 +74,10 @@ To install and run the CoinCash App locally, follow these steps:
 ```
     npm install
 ```
+
+
     
-    This will start the app on a local development server. You can access it by navigating to `http://localhost:3000` in your web browser.
+*    This will start the app on a local development server. You can access it by navigating to `http://localhost:3000` in your web browser.
     
 4.  **Build for Production:** To create a production build of the app, run:
      ```
