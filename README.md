@@ -57,10 +57,9 @@ Installation and Running the App
 To install and run the CoinCash App locally, follow these steps:
 
 1.  **Clone the Repository:**
-     
-    ```
-git clone https://github.com/your-username/coincash-app.git
-    cd coincash-app
+      ```
+    git clone https://github.com/your-username/coincash-app.git
+      cd coincash-app
     ```
 
     
