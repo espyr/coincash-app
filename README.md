@@ -71,17 +71,17 @@ git clone https://github.com/your-username/coincash-app.git
 
     
 3.  **Run the App:** To start the development server, run:
+4.   ```
+    npm run dev
     ```
-npm run dev
-```
 
     
     This will start the app on a local development server. You can access it by navigating to `http://localhost:3000` in your web browser.
     
 4.  **Build for Production:** To create a production build of the app, run:
+     ```
+    npm run build
     ```
-npm run build
-```
     
     The production-ready files will be generated in the `dist` directory.
     
