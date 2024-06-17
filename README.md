@@ -84,10 +84,7 @@ To install and run the CoinCash App locally, follow these steps:
     
     The production-ready files will be generated in the `dist` directory.
     
-5.  **Preview the Production Build:** To preview the production build locally, run:
-   ```
-npm run preview
-```
+
 
 
 Conclusion
