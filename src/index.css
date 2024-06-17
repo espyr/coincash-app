@@ -1,0 +1,18 @@
+input::placeholder {
+  color: #a3a6aa;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+
+}
