@@ -367,8 +367,12 @@ body {
     height: 323px;
   }
 
-  .grid-item {
-    flex: 1 0 20%;
-    padding:20px
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; /* Adjust the gap as needed */
+    padding: 16px; /* Add padding for overall spacing */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
   }
+ 
 }

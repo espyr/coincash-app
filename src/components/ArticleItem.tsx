@@ -11,7 +11,7 @@ export type ArticleProps = {
 };
 const ArticleItem: React.FC<ArticleProps> = ({ article }) => {
   return (
-    <div id={article.id.toString()} className="grid-item">
+    <div id={article.id.toString()} style={{textAlign:'center'}} >
       <img alt="photo" src="https://picsum.photos/400"></img>
       <Author userId={article.userId} />
       <h2>{article.title}</h2>
