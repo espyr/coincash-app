@@ -7,6 +7,7 @@ import IPhoneSlot from "./components/StartSection/IPhoneSlot";
 import BlueSection from "./components/StartSection/BlueSection";
 import BuySection from "./components/MainSection/BuySection";
 import Footer from "./components/Footer/Footer";
+import Articles from "./components/Articles";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         </HeroLayout>
         <BlueSection />
         <BuySection />
+        <Articles/>
         <Footer />
     </ThemeProvider>
   );

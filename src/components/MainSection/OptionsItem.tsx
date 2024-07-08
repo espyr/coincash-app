@@ -19,12 +19,12 @@ const OptionsItem: React.FC<OptionsItemProps> = ({ icon, text, highlight }) => {
         {parts.map((part, index) => (
           <span 
             key={index}
-            style={{
-              
+            style={{              
               color: part === highlight ? theme.primary.main : "inherit",
             }}
           >
             {part}
+            {/* space between text parts */}
             {index < parts.length - 1 ? " " : ""}
           </span>
         ))}

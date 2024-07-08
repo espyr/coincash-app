@@ -366,4 +366,9 @@ body {
     width: 323px;
     height: 323px;
   }
+
+  .grid-item {
+    flex: 1 0 20%;
+    padding:20px
+  }
 }
